@@ -1,0 +1,38 @@
+{
+  "name": "elm_web_components_playground",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Josh Adams <josh.rubyist@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.dailydrip.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "webcomponentsjs": "^0.7.23",
+    "polymer": "^1.7.0",
+    "paper-button": "^1.0.14",
+    "paper-input": "^1.1.22",
+    "app-layout": "^0.10.6",
+    "paper-icon-button": "^1.1.4",
+    "iron-icons": "^1.2.0",
+    "paper-card": "PolymerElements/paper-card#^1.1.4",
+    "paper-fab": "PolymerElements/paper-fab#^1.2.1",
+    "paper-menu": "^1.2.2",
+    "paper-item": "^1.2.1",
+    "gold-cc-cvc-input": "^1.0.9",
+    "gold-cc-expiration-input": "^1.1.3",
+    "gold-cc-input": "^1.0.7",
+    "gold-zip-input": "^1.0.6",
+    "paper-date-picker": "polymer-paper-date-picker#^1.2.0",
+    "iron-grid": "*",
+    "iron-resizable-behavior": "^1.0.5"
+  }
+}
