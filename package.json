@@ -38,6 +38,7 @@
     "style-loader": "0.13.1",
     "uglify-js": "^2.7.5",
     "uglify-loader": "^1.4.0",
+    "universal-ga": "^1.0.1",
     "vulcanize-loader": "^2.0.1",
     "webpack": "^1.14.0",
     "webpack-dev-server": "1.16.2"

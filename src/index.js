@@ -1,3 +1,5 @@
+const analytics = require('universal-ga')
+
 // Load the webcomponentsjs polyfill
 require('script!../bower_components/webcomponentsjs/webcomponents.js')
 
@@ -17,3 +19,6 @@ window.addEventListener('WebComponentsReady', () => {
   let root = document.getElementById('root')
   let app = Elm.Main.embed(root)
 })
+
+analytics.initialize('UA-64071383-4')
+analytics.pageview('/')
